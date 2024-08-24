@@ -3,3 +3,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.glassbg{
+    @apply
+    bg-glass backdrop-blur-[5px];
+}

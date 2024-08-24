@@ -4,11 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'text': '#180f09',
-        'background': '#fdf9f7',
-        'primary': '#ff914d',
-        'secondary': '#eda77c',
-        'accent': '#f18848',
+        'text': '#f7eee9',
+        'background': '#080402',
+        'primary': '#b34400',
+        'secondary': '#823d12',
+        'accent': '#b94f0e',
+        'glass' : 'rgba(8, 4, 2, 0.85)',
        },
        fontFamily:{
         'ubuntu': ['Ubuntu','sans-serif'],
