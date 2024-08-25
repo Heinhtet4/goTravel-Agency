@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="output.css" />
 </head>
 
-<body class="bg-background">
+<body class="bg-background font-opensans">
     <!-- Navigation -->
     <header class="fixed top-2 z-50 bg-transparent w-full">
         <nav class="max-w-[95%] md:max-w-[85%] mx-auto px-2 pr-5 rounded-md h-[3rem] bg-glass backdrop-blur-[5px] flex items-center justify-between shadow-lg border border-opacity-50 border-slate-500">
@@ -69,6 +69,7 @@
         </nav>
     </header>
 
+    <!-- Hero Section -->
     <main class="w-full h-screen">
         <div class="relative">
             <img src="./images/home-img.jpg" class="w-full h-screen object-cover" alt="" srcset="">
@@ -123,6 +124,7 @@
         </div>
     </main>
 
+    <!-- Other Sections -->
     <main class="max-w-[95%] md:max-w-[85%] mx-auto px-2">
         <section class="pt-20" id="bestPlaces">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-2 gap-4">
@@ -143,7 +145,6 @@
                         </div>
                     </div>
                 </div>
-              
                 <!-- Place 2 -->
                 <div class="w-full h-[250px] overflow-hidden rounded-lg relative group">
                     <img src="./images/place-11.jpg" class="w-full h-[100%] group-hover:scale-[1.1] transition-all duration-500" alt="" srcset="">
@@ -161,7 +162,6 @@
                         </div>
                     </div>
                 </div>
-              
                 <!-- Place 3 -->
                 <div class="w-full h-[250px] overflow-hidden rounded-lg relative group">
                     <img src="./images/place-5.jpg" class="w-full h-[100%] group-hover:scale-[1.1] transition-all duration-500" alt="" srcset="">
@@ -179,7 +179,6 @@
                         </div>
                     </div>
                 </div>
-              
                 <!-- Place 4 - 2 columns -->
                 <div class="sm:col-span-2 w-full h-[250px] overflow-hidden rounded-lg relative group">
                     <img src="./images/place-6.jpg" class="w-full h-[100%] object-cover group-hover:scale-[1.1] transition-all duration-500" alt="">
@@ -198,8 +197,62 @@
                     </div>
                 </div>
               </div>
-              
-              
+        </section>
+        <section class="pt-20" id="services">
+            <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-4 items-center">
+                <div class="text-text">
+                    <h1 class="text-3xl font-ubuntu font-bold"> Experience The New Adventure </h1>
+                    <p class="font-opensans text-neutral-400 text-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates blanditiis commodi sunt unde quis.
+                    </p>
+                    <!-- Service-1 -->
+                    <div class="flex justify-start items-center gap-x-3 mt-3">
+                        <div class="w-[50px]">
+                            <p class="inline-block w-[40px] h-[40px] leading-[40px] bg-glass-light text-center rounded-[50%] text-primary border border-neutral-700">
+                                <i class="ri-shield-star-line text-lg"></i>
+                            </p>
+                        </div>
+                        <p class="text-sm text-neutral-400">
+                            <span class="text-lg font-ubuntu text-text"> Safe Travelling</span> <br>
+                            Ensuring your journey is safe and secure with top-notch protection.
+                        </p>
+                    </div>
+                    <!-- Service-2 -->
+                    <div class="flex justify-start items-center gap-x-3 mt-2">
+                        <div class="w-[50px]">
+                            <p class="inline-block w-[40px] h-[40px] leading-[40px] bg-glass-light text-center rounded-[50%] text-primary border border-neutral-700">
+                                <i class="ri-price-tag-3-line text-lg"></i>
+                            </p>
+                        </div>
+                        <p class="text-sm text-neutral-400">
+                            <span class="text-lg font-ubuntu text-text"> Affordable Price </span> <br>
+                            Enjoy budget-friendly travel with great value and excellent service.
+                        </p>
+                    </div>
+                    <!-- Service-3 -->
+                    <div class="flex justify-start items-center gap-x-3 mt-2">
+                        <div class="w-[50px]">
+                            <p class="inline-block w-[40px] h-[40px] leading-[40px] bg-glass-light text-center rounded-[50%] text-primary border border-neutral-700">
+                                <i class="ri-team-line text-lg"></i>
+                            </p>
+                        </div>
+                        <p class="text-sm text-neutral-400">
+                            <span class="text-lg font-ubuntu text-text"> Group Discounts </span> <br>
+                            Save more when traveling with groups using our special discount offers.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-span-2 w-full h-[350px] overflow-hidden rounded-lg group relative">
+                    <img src="./images/service-img.jpg" class="w-full h-full object-cover group-hover:scale-[1.1] transition-all duration-500" alt="">
+                    <!-- Youtune embed -->
+                    <div class="w-full h-[150px] absolute bottom-1 right-1">
+                        <div class="flex justify-end w-full shadow-lg gap-x-[3px]">
+                            <!-- Video -->
+                            <iframe width="250" height="150" src="https://www.youtube.com/embed/BapSQFJPMM0?si=2pTqxjy4MO45Cvoq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="border-[3px] border-background rounded-xl"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>
