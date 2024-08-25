@@ -11,28 +11,26 @@
 </head>
 
 <body class="bg-background">
+    <!-- Navigation -->
     <header class="fixed top-2 z-50 bg-transparent w-full">
-        <nav
-            class="max-w-[95%] md:max-w-[85%] mx-auto px-2 pr-5 rounded-md h-[3rem] bg-glass backdrop-blur-[5px] flex items-center justify-between shadow-lg border border-opacity-50 border-slate-500">
+        <nav class="max-w-[95%] md:max-w-[85%] mx-auto px-2 pr-5 rounded-md h-[3rem] bg-glass backdrop-blur-[5px] flex items-center justify-between shadow-lg border border-opacity-50 border-slate-500">
             <!-- Logo -->
             <div>
                 <img src="./images/logo/goTravelLogo.png" width="100px" class="rounded-md" alt="" />
             </div>
             <!-- Nav-Menu -->
             <div class="flex gap-x-2 md:gap-x-4">
-                <!-- Bookings -->
                 <div>
                     <a href="#" class="text-text hover:text-primary transition-colors duration-300">
                         <i class="ri-calendar-schedule-line text-lg"></i>
                     </a>
                 </div>
-                <!-- Register -->
                 <div>
                     <a href="#" class="text-text hover:text-primary transition-colors duration-300">
                         <i class="ri-user-line text-lg"></i>
                     </a>
                 </div>
-                <!-- Menu -->
+                <!-- Menu Start -->
                 <div>
                     <input type="checkbox" class="peer hidden" id="menuToggle" />
                     <label for="menuToggle" class="text-text hover:text-primary transition-colors duration-300 cursor-pointer peer-checked:hidden">
@@ -44,46 +42,51 @@
                     <div class="w-1/2 md:w-1/5 2xl:w-1/6 fixed right-0 top-[3rem] bg-glass backdrop-blur-[5px] rounded-md hidden peer-checked:block">
                         <ul class="text-center py-4 md:py-5 2xl-py-6 flex flex-col gap-y-2">
                             <li>
-                                <a href="#" class="text-text hover:text-primary transition-colors duration-300"> 
-                                    Home 
+                                <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                                    Home
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="text-text hover:text-primary transition-colors duration-300"> 
-                                    Destinations 
+                                <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                                    Destinations
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="text-text hover:text-primary transition-colors duration-300"> 
-                                    Blogs 
+                                <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                                    Blogs
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="text-text hover:text-primary transition-colors duration-300"> 
-                                    Contact 
+                                <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                                    Contact
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
+                <!-- Menu End -->
             </div>
         </nav>
     </header>
+
     <main class="w-full h-screen">
         <div class="relative">
             <img src="./images/home-img.jpg" class="w-full h-screen object-cover" alt="" srcset="">
-            <div class="absolute w-full h-screen bg-black top-0 opacity-50"> </div>
+            <div class="absolute w-full h-screen bg-black top-0 opacity-50">
+                <!-- Overlay for Opacity for image -->
+            </div>
             <div class="w-full max-w-[95%] md:max-w-[85%] px-2 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex justify-between">
                 <div class="max-w-[70%] md:max-w-[60%]">
+                    <!-- Hero Titile -->
                     <p class="px-3 py-1 text-xs text-text bg-glass-light backdrop-blur-[5px] bg-opacity-15 inline-block rounded-full mb-3">
                         <i class="ri-error-warning-line mr-1"></i> Adventure Awaits
                     </p>
                     <p class="text-3xl md:text-4xl text-text font-bold font-ubuntu text-shadow tracking-wider mb-2">
                         Find Your Next Adventure with goTravel Now
-                   </p>
-                  <a href="#" class="bg-primary text-background hover:bg-secondary transition-colors duration-300 font-bold py-2 px-4 drop-shadow-md rounded-full inline-block mt-4">
-                    GET STARTED <i class="ri-arrow-right-line"></i>
-                  </a>
+                    </p>
+                    <a href="#bestPlaces" class="bg-primary text-background hover:bg-secondary transition-colors duration-300 font-bold py-2 px-4 drop-shadow-md rounded-full inline-block mt-4">
+                        GET STARTED <i class="ri-arrow-right-line"></i>
+                    </a>
                 </div>
                 <div class="flex flex-col gap-y-2">
                     <a href="#" class="inline-block w-[40px] h-[40px] leading-[40px] bg-glass-light text-center rounded-[50%] text-text hover:text-primary transition-colors duration-300">
@@ -95,7 +98,7 @@
                     <a href="#" class="inline-block w-[40px] h-[40px] leading-[40px] bg-glass-light text-center rounded-[50%] text-text hover:text-primary transition-colors duration-300">
                         <i class="ri-tiktok-fill text-lg"></i>
                     </a>
-                    <a href="#" class="inline-block w-[40px] leading-[40px] text-center  text-text hover:text-primary transition-colors duration-300 last:mt-5">
+                    <a href="#bestPlaces" class="inline-block w-[40px] leading-[40px] text-center  text-text hover:text-primary transition-colors duration-300 last:mt-5">
                         <div class="w-px h-8 xl:h-20 bg-gray-300 mx-auto"></div>
                         <i class="ri-scroll-to-bottom-line text-2xl mb-10"></i>
                     </a>
@@ -105,15 +108,47 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-2 gap-x-2">
                     <div class="flex items-center gap-x-2">
                         <i class="ri-ship-2-line bg-glass-light text-text w-[30px] h-[30px] flex items-center justify-center rounded-[50%]"></i>
-                        <p class="leading-tight text-sm font-opensans text-shadow-sm font-semibold text-text"> Discover more, travel easier, <br> The world is yours to fully explore.</p>
+                        <p class="leading-tight text-sm font-opensans text-shadow-sm font-semibold text-text"> 
+                            Discover more, travel easier, <br> 
+                            The world is yours to fully explore.</p>
                     </div>
                     <div class="flex items-center gap-x-2">
                         <i class="ri-time-line bg-glass-light text-text w-[30px] h-[30px] flex items-center justify-center rounded-[50%]"></i>
-                        <p class="leading-tight text-sm font-opensans text-shadow-sm font-semibold text-text"> Planning your next escape? <br> Find your perfect destination with us</p>
+                        <p class="leading-tight text-sm font-opensans text-shadow-sm font-semibold text-text"> 
+                            Planning your next escape? <br> 
+                            Find your perfect destination with us</p>
                     </div>
                 </div>
             </div>
         </div>
+    </main>
+
+    <main class="max-w-[95%] md:max-w-[85%] mx-auto px-2">
+        <section class="pt-20" id="bestPlaces">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-2 gap-4">
+                <!-- Place 1 - 2 row  -->
+                <div class="row-span-2">
+                    <img src="./images/place-8.jpg" class="w-full h-[100%] object-cover rounded-lg" alt="" srcset="">
+                </div>
+              
+                <!-- Place 2 -->
+                <div class="w-full h-[250px]">
+                    <img src="./images/place-9.jpg" class="w-full h-[100%] object-cover rounded-lg" alt="" srcset="">
+                </div>
+              
+                <!-- Place 3 -->
+                <div class="w-full h-[250px]">
+                    <img src="./images/place-5.jpg" class="w-full h-[100%] object-cover rounded-lg" alt="" srcset="">
+                </div>
+              
+                <!-- Place 4 - 2 columns -->
+                <div class="sm:col-span-2 w-full h-[250px]">
+                    <img src="./images/place-6.jpg" class="w-full h-[100%] mx-auto object-cover rounded-lg" alt="">
+                </div>
+              </div>
+              
+              
+        </section>
     </main>
 </body>
 
