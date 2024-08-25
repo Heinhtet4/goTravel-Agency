@@ -12,7 +12,10 @@ html{
     @apply
     bg-glass backdrop-blur-[5px];
 }
-
+.gradient-bg{
+    background: rgb(0,0,0);
+    background: linear-gradient(121deg, rgba(0,0,0,0.3) 57%, rgba(0,0,0,0.6) 79%, rgba(0,0,0,0.9) 95%);
+}
 .text-shadow{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
