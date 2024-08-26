@@ -6,6 +6,7 @@
 
 - Responsive design using Tailwind CSS
 - Modern, clean, and user-friendly UI
+- Grid and Flexbox layouts for structured, responsive elements
 - Image gallery with creative layouts
 - Subscription section for exclusive offers
 - Social media integration for easy connection
@@ -16,24 +17,27 @@
 
 - **Tailwind CSS CLI**: For utility-first styling and responsiveness.
 - **HTML5**: Markup language for the web pages.
-- **JavaScript**: Used for interactivity.
 - **Remix Icons**: For icons used in the navigation and social media sections.
 
 ## Setup Instructions
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Heinhtet4/goTravel.git
 
 2. Navigate to the project directory:
+
     ```bash
     cd goTravel
 
 3. Install dependencies:
+
     ```bash
     npm install
 
 4. Run the Tailwind CLI for development:
+
     ```bash
     npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
@@ -45,5 +49,4 @@ This project is licensed under the MIT License.
 Author
 Developed by Hein Htet. Feel free to reach out with any questions or contributions.
 
-    ```bash
-    You can adjust this as needed and add it to your project!
+## You can adjust this as needed and add it to your project!
