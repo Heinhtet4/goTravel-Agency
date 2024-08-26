@@ -26,13 +26,16 @@
    git clone https://github.com/Heinhtet4/goTravel.git
 
 2. Navigate to the project directory:
-cd goTravel
+    ```bash
+    cd goTravel
 
 3. Install dependencies:
-npm install
+    ```bash
+    npm install
 
 4. Run the Tailwind CLI for development:
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+    ```bash
+    npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
 5. Open the index.html file in your browser to view the project.
 
@@ -42,5 +45,5 @@ This project is licensed under the MIT License.
 Author
 Developed by Hein Htet. Feel free to reach out with any questions or contributions.
 
-
-You can adjust this as needed and add it to your project!
+    ```bash
+    You can adjust this as needed and add it to your project!
