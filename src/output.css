@@ -662,6 +662,10 @@ video {
   margin-right: 0.25rem;
 }
 
+.mt-1{
+  margin-top: 0.25rem;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
@@ -734,6 +738,10 @@ video {
   height: 40px;
 }
 
+.h-\[70vh\]{
+  height: 70vh;
+}
+
 .h-full{
   height: 100%;
 }
@@ -742,16 +750,16 @@ video {
   height: 100vh;
 }
 
-.h-\[70vh\]{
-  height: 70vh;
-}
-
 .w-1\/2{
   width: 50%;
 }
 
 .w-\[100\%\]{
   width: 100%;
+}
+
+.w-\[200px\]{
+  width: 200px;
 }
 
 .w-\[30px\]{
@@ -780,10 +788,6 @@ video {
 
 .w-px{
   width: 1px;
-}
-
-.w-\[200px\]{
-  width: 200px;
 }
 
 .max-w-\[70\%\]{
@@ -940,6 +944,11 @@ video {
   border-color: rgb(64 64 64 / var(--tw-border-opacity));
 }
 
+.border-neutral-900{
+  --tw-border-opacity: 1;
+  border-color: rgb(23 23 23 / var(--tw-border-opacity));
+}
+
 .border-slate-500{
   --tw-border-opacity: 1;
   border-color: rgb(100 116 139 / var(--tw-border-opacity));
@@ -948,16 +957,6 @@ video {
 .border-slate-700{
   --tw-border-opacity: 1;
   border-color: rgb(51 65 85 / var(--tw-border-opacity));
-}
-
-.border-neutral-900{
-  --tw-border-opacity: 1;
-  border-color: rgb(23 23 23 / var(--tw-border-opacity));
-}
-
-.border-neutral-950{
-  --tw-border-opacity: 1;
-  border-color: rgb(10 10 10 / var(--tw-border-opacity));
 }
 
 .border-opacity-50{
@@ -1006,11 +1005,6 @@ video {
   background-color: transparent;
 }
 
-.bg-blue-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-15{
   --tw-bg-opacity: 0.15;
 }
@@ -1022,10 +1016,6 @@ video {
 
 .p-1{
   padding: 0.25rem;
-}
-
-.p-10{
-  padding: 2.5rem;
 }
 
 .px-2{
@@ -1143,6 +1133,10 @@ video {
 
 .font-bold{
   font-weight: 700;
+}
+
+.font-normal{
+  font-weight: 400;
 }
 
 .font-semibold{
@@ -1360,10 +1354,6 @@ html{
     width: 20%;
   }
 
-  .md\:w-\[300px\]{
-    width: 300px;
-  }
-
   .md\:w-\[250px\]{
     width: 250px;
   }
@@ -1433,6 +1423,10 @@ html{
 }
 
 @media (min-width: 1536px){
+  .\32xl\:block{
+    display: block;
+  }
+
   .\32xl\:h-\[327px\]{
     height: 327px;
   }
@@ -1443,5 +1437,9 @@ html{
 
   .\32xl\:w-1\/6{
     width: 16.666667%;
+  }
+
+  .\32xl\:w-\[60\%\]{
+    width: 60%;
   }
 }
