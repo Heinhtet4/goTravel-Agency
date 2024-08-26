@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goTravel</title>
+    <link rel="shortcut icon" href="./images/logo/goTravelfavicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" />
+    <link rel="stylesheet" href="output.css" />
+</head>
+<body class="bg-background font-opensans">
+    <!-- Navigation -->
+    <header class="fixed top-2 z-50 bg-transparent w-full">
+        <nav class="max-w-[95%] md:max-w-[85%] mx-auto px-2 pr-5 rounded-md h-[3rem] bg-glass backdrop-blur-[5px] flex items-center justify-between shadow-lg border border-opacity-50 border-slate-500">
+            <!-- Logo -->
+            <div>
+                <img src="./images/logo/goTravelLogo.png" width="100px" class="rounded-md" alt="" />
+            </div>
+            <!-- Nav-Menu -->
+            <div class="flex gap-x-2 md:gap-x-4">
+                <div>
+                    <a href="booking_list.html" class="text-text hover:text-primary transition-colors duration-300">
+                        <i class="ri-calendar-schedule-line text-lg"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                        <i class="ri-user-line text-lg"></i>
+                    </a>
+                </div>
+                <!-- Menu Start -->
+                <div>
+                    <input type="checkbox" class="peer hidden" id="menuToggle" />
+                    <label for="menuToggle" class="text-text hover:text-primary transition-colors duration-300 cursor-pointer peer-checked:hidden">
+                        <i class="ri-menu-3-line text-lg"></i>
+                    </label>
+                    <label for="menuToggle" class="text-text hover:text-primary transition-colors duration-300 cursor-pointer hidden peer-checked:block">
+                        <i class="ri-close-large-line text-lg"></i>
+                    </label>
+                    <div class="w-1/2 md:w-1/5 2xl:w-1/6 fixed right-0 top-[3rem] bg-glass backdrop-blur-[5px] rounded-md hidden peer-checked:block">
+                        <ul class="text-center py-4 md:py-5 2xl-py-6 flex flex-col gap-y-2">
+                            <li>
+                                <a href="index.html" class="text-text hover:text-primary transition-colors duration-300">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                                    Destinations
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                                    Blogs
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Menu End -->
+            </div>
+        </nav>
+    </header>
+
+    <main class="h-screen w-full relative">
+        <div class="max-w-[95%] w-full h-[70vh] md:max-w-[85%] mx-auto px-2 border border-neutral-900 shadow absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+            <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+                <img src="./images/svg/booking.svg" class="w-[200px] md:w-[250px] opacity-75" alt="">
+                <p class="text-neutral-500 text-center mt-3">
+                    No Data Found 
+                </p>
+                <div class="mx-auto flex justify-center">
+                    <a href="#" class="mt-2 text-text text-center border border-neutral-700 inline-block px-3 py-2 hover:text-secondary hover:border-secondary transition-colors duration-300">
+                        Go to Book !
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
