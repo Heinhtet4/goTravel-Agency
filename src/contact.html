@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goTravel</title>
+    <link rel="shortcut icon" href="./images/logo/goTravelfavicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" />
+    <link rel="stylesheet" href="output.css" />
+</head>
+<body class="bg-background font-opensans">
+    <!-- Navigation -->
+    <header class="fixed top-2 z-50 bg-transparent w-full">
+        <nav class="max-w-[95%] md:max-w-[85%] mx-auto px-2 pr-5 rounded-md h-[3rem] bg-glass backdrop-blur-[5px] flex items-center justify-between shadow-lg border border-opacity-50 border-slate-500">
+            <!-- Logo -->
+            <div>
+                <img src="./images/logo/goTravelLogo.png" width="100px" class="rounded-md" alt="" />
+            </div>
+            <!-- Nav-Menu -->
+            <div class="flex gap-x-2 md:gap-x-4">
+                <div>
+                    <a href="booking_list.html" class="text-text hover:text-primary transition-colors duration-300">
+                        <i class="ri-calendar-schedule-line text-lg"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                        <i class="ri-user-line text-lg"></i>
+                    </a>
+                </div>
+                <!-- Menu Start -->
+                <div>
+                    <input type="checkbox" class="peer hidden" id="menuToggle" />
+                    <label for="menuToggle" class="text-text hover:text-primary transition-colors duration-300 cursor-pointer peer-checked:hidden">
+                        <i class="ri-menu-3-line text-lg"></i>
+                    </label>
+                    <label for="menuToggle" class="text-text hover:text-primary transition-colors duration-300 cursor-pointer hidden peer-checked:block">
+                        <i class="ri-close-large-line text-lg"></i>
+                    </label>
+                    <div class="w-1/2 md:w-1/5 2xl:w-1/6 fixed right-0 top-[3rem] bg-glass backdrop-blur-[5px] rounded-md hidden peer-checked:block">
+                        <ul class="text-center py-4 md:py-5 2xl-py-6 flex flex-col gap-y-2">
+                            <li>
+                                <a href="index.html" class="text-text hover:text-primary transition-colors duration-300">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="destination.html" class="text-text hover:text-primary transition-colors duration-300">
+                                    Destinations
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                                    Blogs
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Menu End -->
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-[5rem] pb-10 2xl:min-h-[80vh] 2xl:pt-[10rem]">
+        <div class="text-text max-w-[95%] md:max-w-[85%] mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-4">
+                <div class="bg-neutral-900 rounded-lg p-4">
+                    <h1 class="font-bold font-ubuntu text-xl mb-1">
+                        Let’s Connect and Explore!
+                    </h1>
+                    <p class="text-sm text-neutral-400">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum similique obcaecati optio. Asperiores et nesciunt repudiandae praesentium alias ut aliquid.
+                    </p>
+                    <div class="mt-3">
+                        <div class="flex items-center gap-x-3 mb-2">
+                            <p class="inline-block w-[40px] h-[40px] leading-[40px] bg-glass-light text-center rounded-[50%] text-text">
+                                <i class="ri-building-line text-lg"></i>
+                            </p>
+                            <div>
+                                <h1 class="text-sm mb-[3px]"> HeadOffice </h1>
+                                <p class="text-xs text-neutral-400"> No. 123, Main Street, Sunshine Condo, <br> Yangon, Myanmar</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center gap-x-3 mb-2">
+                            <p class="inline-block w-[40px] h-[40px] leading-[40px] bg-glass-light text-center rounded-[50%] text-text">
+                                <i class="ri-mail-line text-lg"></i>
+                            </p>
+                            <div>
+                                <h1 class="text-sm mb-[3px]"> Emails </h1>
+                                <p class="text-xs text-neutral-400">
+                                    support@gotravel.com <br>
+                                    help@gotravel.com
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-x-3 mb-2">
+                            <p class="inline-block w-[40px] h-[40px] leading-[40px] bg-glass-light text-center rounded-[50%] text-text">
+                                <i class="ri-phone-line text-lg"></i>
+                            </p>
+                            <div>
+                                <h1 class="text-sm mb-[3px]"> Hotlines: </h1>
+                                <p class="text-xs text-neutral-400">
+                                    09 123 456 789 <br>
+                                    09 987 654 321
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-xs font-ubuntu text-neutral-400">
+                            Our dedicated customer service team is at your service 24/7, ensuring seamless support and guidance every step of your journey with goTravel!
+                        </p>
+                    </div>
+                </div>
+                <div class="p-4">
+                    <h1 class="font-bold font-ubuntu text-xl">We’d Love to Hear from You!</h1>
+                    <form action="" method="post" class="mt-4">
+                        <!-- First Name and Email -->
+                        <div class="mb-1 grid grid-cols-1 sm:grid-cols-2 gap-x-1">
+                            <div class="w-[100%]">
+                                <label for="name" class="block text-xs text-neutral-500 py-1">
+                                    Your Name:
+                                </label>
+                                <input type="text" id="name" name="name" class="w-full py-1 px-3 rounded outline-none bg-neutral-700" required>
+                            </div>
+                            <div class="w-[100%]">
+                                <label for="email" class="block text-xs text-neutral-500 py-1">
+                                    Email:
+                                </label>
+                                <input type="email" id="email" name="email" class="w-full py-1 px-3 rounded outline-none bg-neutral-700" required>
+                            </div>
+                        </div>
+                    
+                        <!-- Subject and Phone -->
+                        <div class="mb-1 grid grid-cols-1 sm:grid-cols-2 gap-x-1">
+                            <div class="w-[100%]">
+                                <label for="subject" class="block text-xs text-neutral-500 py-1">
+                                    Subject:
+                                </label>
+                                <input type="text" id="subject" name="subject" class="w-full py-1 px-3 rounded outline-none bg-neutral-700" required>
+                            </div>
+                            <div class="w-[100%]">
+                                <label for="phone" class="block text-xs text-neutral-500 py-1">
+                                    Phone Number:
+                                </label>
+                                <input type="tel" id="phone" name="phone" class="w-full py-1 px-3 rounded outline-none bg-neutral-700" required>
+                            </div>
+                        </div>
+                    
+                        <!-- Message -->
+                        <div class="mb-1">
+                            <label for="message" class="block text-xs text-neutral-500 py-1">
+                                Message:
+                            </label>
+                            <textarea id="message" name="message" rows="4" class="w-full py-1 px-3 rounded outline-none bg-neutral-700" required></textarea>
+                        </div>
+                    
+                        <!-- Submit Button -->
+                        <div class="mt-3">
+                            <button type="submit" class="w-full px-3 py-2 border border-slate-700 hover:text-secondary hover:border-secondary transition-colors duration-300">
+                                Send
+                            </button>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- footer -->
+    <section class="pt-12" style="background-color: #0a0806;">
+        <footer class="max-w-[95%] md:max-w-[85%] mx-auto px-2">
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 gap-y-10 pb-6">
+                    <div class="col-span-2 lg:col-span-1">
+                        <img src="./images/logo/goTravelLogo.png" width="100px" class="rounded-md mb-2" alt="logo">
+                        <p class="text-neutral-400 leading-tight text-sm mb-2"> Connect with us on social media for updates and exclusive deals. </p>
+                        <div class="flex gap-x-2">
+                            <a href="#" class="inline-block w-[40px] h-[40px] leading-[40px] bg-glass-light text-center border border-neutral-700 rounded-[50%] text-text hover:text-primary hover:border-secondary transition-colors duration-300">
+                                <i class="ri-facebook-fill text-lg"></i>
+                            </a>
+                            <a href="#" class="inline-block w-[40px] h-[40px] leading-[40px] bg-glass-light text-center border border-neutral-700 rounded-[50%] text-text hover:text-primary hover:border-secondary transition-colors duration-300">
+                                <i class="ri-youtube-fill text-lg"></i>
+                            </a>
+                            <a href="#" class="inline-block w-[40px] h-[40px] leading-[40px] bg-glass-light text-center border border-neutral-700 rounded-[50%] text-text hover:text-primary hover:border-secondary transition-colors duration-300">
+                                <i class="ri-tiktok-fill text-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-span-1 w-[50%] sm:w-auto text-text text-left flex justify-start lg:justify-center">
+                        <ul class="inline-block">
+                            <li>
+                                <p class="text-base inline-block border-b border-neutral-700 py-1 mb-2 text-neutral-300"> Main Menu </p>
+                            </li>
+                            <li>
+                                <a href="index.html" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> Home </a>
+                            </li>
+                            <li>
+                                <a href="destination.html" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> Destinations </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> Blogs </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> Contact </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-span-1 w-[50%] lg:w-auto text-text text-left flex justify-start lg:justify-center">
+                        <ul class="inline-block">
+                            <li>
+                                <p class="text-base inline-block border-b border-neutral-700 py-1 mb-2 text-neutral-300"> Other Links </p>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> Best Places</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> Our Services</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> Help </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> License </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-span-2 lg:col-span-1 text-left flex justify-start lg:justify-end">
+                        <div class="text-text">
+                            <p class="text-base inline-block border-b border-neutral-700 py-1 mb-2 text-neutral-300"> Subscribe for Updates </p>
+                            <p class="text-sm mb-1">
+                                Get the latest deals, discounts, and travel tips straight to your inbox. subscribe now!
+                            </p>
+                            <div class="mb-4">
+                                <form action="" class="flex">
+                                    <input type="email" class="outline-none p-1 bg-neutral-900 text-neutral-400 placeholder-neutral-400 shadow focus:bg-neutral-900" placeholder="Email" name="email" id="">
+                                    <button type="button" class="px-2 py-1 bg-primary text-background hover:bg-glass-light border border-neutral-700 hover:text-primary transition-colors duration-300">
+                                        <i class="ri-send-plane-line font-bold"></i>
+                                    </button>
+                                </form>
+                            </div>
+                            <p class="text-neutral-500 text-xs font-ubuntu pt-3 border-t-[1px] border-neutral-700"> &copy; 2024 Hein Htet. All rights reserved. goTravel </p>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+    </section>
+</body>
+</html>
