@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goTravel</title>
+    <link rel="shortcut icon" href="./images/logo/goTravelfavicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" />
+    <link rel="stylesheet" href="output.css" />
+</head>
+<body class="bg-background font-opensans">
+    <!-- Navigation -->
+    <header class="fixed top-2 z-50 bg-transparent w-full">
+            <nav class="max-w-[95%] md:max-w-[85%] mx-auto px-2 pr-5 rounded-md h-[3rem] bg-glass backdrop-blur-[5px] flex items-center justify-between shadow-lg border border-opacity-50 border-slate-500">
+                <!-- Logo -->
+                <div>
+                    <img src="./images/logo/goTravelLogo.png" width="100px" class="rounded-md" alt="" />
+                </div>
+                <!-- Nav-Menu -->
+                <div class="flex gap-x-2 md:gap-x-4">
+                    <div>
+                        <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                            <i class="ri-calendar-schedule-line text-lg"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                            <i class="ri-user-line text-lg"></i>
+                        </a>
+                    </div>
+                    <!-- Menu Start -->
+                    <div>
+                        <input type="checkbox" class="peer hidden" id="menuToggle" />
+                        <label for="menuToggle" class="text-text hover:text-primary transition-colors duration-300 cursor-pointer peer-checked:hidden">
+                            <i class="ri-menu-3-line text-lg"></i>
+                        </label>
+                        <label for="menuToggle" class="text-text hover:text-primary transition-colors duration-300 cursor-pointer hidden peer-checked:block">
+                            <i class="ri-close-large-line text-lg"></i>
+                        </label>
+                        <div class="w-1/2 md:w-1/5 2xl:w-1/6 fixed right-0 top-[3rem] bg-glass backdrop-blur-[5px] rounded-md hidden peer-checked:block">
+                            <ul class="text-center py-4 md:py-5 2xl-py-6 flex flex-col gap-y-2">
+                                <li>
+                                    <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                                        Destinations
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                                        Blogs
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-text hover:text-primary transition-colors duration-300">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Menu End -->
+                </div>
+            </nav>
+    </header>
+
+    <main class="pt-[5rem] pb-10">
+        <div class="text-text max-w-[95%] md:max-w-[85%] mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                <!-- Images -->
+                <div class="col-span-2">
+                    <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 grid-rows-2 gap-4">
+                        <!-- Place 1 - 2 row  -->
+                        <div class="row-span-2 h-[400px] overflow-hidden rounded-lg relative group">
+                            <img src="./images/place-2.jpg" class="w-full h-[100%] object-cover group-hover:scale-[1.1] transition-all duration-500" alt="" srcset="">
+                            <div class="absolute top-0 left-0 w-full h-full gradient-bg">
+                            </div>
+                        </div>
+
+                        <!-- Place 2 - 2 columns -->
+                        <div class="sm:col-span-2 w-full h-[190px] overflow-hidden rounded-lg relative group">
+                            <img src="./images/place-7.jpg" class="w-full h-[100%] object-cover group-hover:scale-[1.1] transition-all duration-500" alt="">
+                            <div class="absolute top-0 left-0 w-full h-full gradient-bg">
+                            </div>
+                        </div>    
+
+                        <!-- Place 3 - 2 columns -->
+                        <div class="sm:col-span-2 w-full h-[190px] overflow-hidden rounded-lg relative group">
+                            <img src="./images/place-3.jpg" class="w-full h-[100%] object-cover group-hover:scale-[1.1] transition-all duration-500" alt="">
+                            <div class="absolute top-0 left-0 w-full h-full gradient-bg">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Info -->
+                    <div class="py-4 px-3 flex items-center justify-between">
+                        <div>
+                            <p class="text-lg font-semibold text-text"> Pagoda 
+                                <i class="ri-hashtag"></i> GT-092 
+                            </p>
+                            <p class="text-sm text-slate-200"> somewhere, Country </p>
+                            <p class="text-sm text-slate-200"> 
+                                <i class="ri-money-dollar-circle-line"></i> 531
+                            </p>
+                        </div>
+                        <div>
+                            <a href="https://maps.app.goo.gl/goguuH5QTgQMaKoUA" target="_blank" class="inline-block bg-glass-light text-center text-text border border-neutral-700 px-3 py-2 hover:text-secondary hover:border-secondary transition-all duration-300">
+                                Explore Location <i class="ri-map-pin-line text-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="my-4 px-2">
+                        <div class="text-sm mb-3">
+                            <p class="mb-1">
+                                <i class="ri-calendar-line mr-1"></i> 
+                                <span class="text-neutral-400"> 19th November,2024 </span>
+                            </p>
+                            <p class="mb-1">
+                                <i class="ri-time-line mr-1"></i>
+                                <span class="text-neutral-400"> 4:00 PM </span>
+                            </p>
+                            <p class="mb-1">
+                                <i class="ri-flight-takeoff-line"></i>
+                                <span class="text-neutral-400"> Fly Emirates </span>
+                            </p>
+                        </div>
+                        <h1 class="text-lg"> Description </h1>
+                        <p class="text-base text-neutral-500">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus hic alias ducimus asperiores possimus doloribus in, voluptates corrupti officia illo architecto. Dolorem delectus deleniti, illo architecto nihil, dolores beatae eaque quis, eum tempora eos at rerum explicabo modi laborum ipsum?
+                        </p>
+                    </div>
+                </div>
+                <!-- Form -->
+                <div>
+                    <h1 class="text-text text-lg font-ubuntu font-bold">
+                        Book Your Next Adventure Here! 
+                    </h1>
+                    <p class="text-neutral-500 text-xs">
+                        Book your trip today and let us handle the rest!
+                    </p>
+                    <form action="" method="post" class="mt-4">
+                        <div class="mb-1 grid grid-cols-1 sm:grid-cols-2 gap-x-1">
+                            <div class="w-[100%]">
+                                <label for="trip-id" class="block text-xs text-neutral-500 py-1">
+                                    Your Name:
+                                </label>
+                                <input type="text" class="w-full py-1 px-3 rounded outline-none bg-neutral-700" name="" id="" required>
+                            </div>
+                            <div class="w-[100%]">
+                                <label for="trip-id" class="block text-xs text-neutral-500 py-1">
+                                    Email :
+                                </label>
+                                <input type="email" class="w-full py-1 px-3 rounded outline-none bg-neutral-700" name="" id="" required>
+                            </div>
+                        </div>
+                        <div class="mb-1 grid grid-cols-1 sm:grid-cols-2 gap-x-1">
+                            <div class="w-[100%]">
+                                <label for="trip-id" class="block text-xs text-neutral-500 py-1">
+                                    Passport No. :
+                                </label>
+                                <input type="text" class="w-full py-1 px-3 rounded outline-none bg-neutral-700" name="" id="" required>
+                            </div>
+                            <div class="w-[100%]">
+                                <label for="trip-id" class="block text-xs text-neutral-500 py-1">
+                                    Phone Number :
+                                </label>
+                                <input type="tel" class="w-full py-1 px-3 rounded outline-none bg-neutral-700 app appearance-none" name="" id="" required>
+                            </div>
+                        </div>
+                        <div class="mb-1">
+                            <label for="trip-id" class="block text-xs text-neutral-500 py-1">
+                                Destination ID :
+                            </label>
+                            <input type="text" class="w-[100%] py-1 px-3 rounded outline-none bg-neutral-700"  value="#GT-092" name="trip-id" id="" readonly>
+                        </div>
+                        <div class="mb-1">
+                            <label for="trip-id" class="block text-xs text-neutral-500 py-1">
+                                Card No. :
+                            </label>
+                            <input type="text" class="w-full py-1 px-3 rounded outline-none bg-neutral-700"  maxlength="19"
+                            pattern="\d{4} \d{4} \d{4} \d{4}"
+                            inputmode="numeric"
+                            autocomplete="cc-number">
+                        </div>
+                        <div class="mt-3">
+                            <button type="button" class="w-full px-3 py-2 border border-slate-700 hover:text-secondary hover:border-secondary transition-colors duration-300">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+        <!-- footer -->
+        <section class="pt-12" style="background-color: #0a0806;">
+            <footer class="max-w-[95%] md:max-w-[85%] mx-auto px-2">
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 gap-y-10 pb-6">
+                    <div class="col-span-2 lg:col-span-1">
+                        <img src="./images/logo/goTravelLogo.png" width="100px" class="rounded-md mb-2" alt="logo">
+                        <p class="text-neutral-400 leading-tight text-sm mb-2"> Connect with us on social media for updates and exclusive deals. </p>
+                        <div class="flex gap-x-2">
+                            <a href="#" class="inline-block w-[40px] h-[40px] leading-[40px] bg-glass-light text-center border border-neutral-700 rounded-[50%] text-text hover:text-primary hover:border-secondary transition-colors duration-300">
+                                <i class="ri-facebook-fill text-lg"></i>
+                            </a>
+                            <a href="#" class="inline-block w-[40px] h-[40px] leading-[40px] bg-glass-light text-center border border-neutral-700 rounded-[50%] text-text hover:text-primary hover:border-secondary transition-colors duration-300">
+                                <i class="ri-youtube-fill text-lg"></i>
+                            </a>
+                            <a href="#" class="inline-block w-[40px] h-[40px] leading-[40px] bg-glass-light text-center border border-neutral-700 rounded-[50%] text-text hover:text-primary hover:border-secondary transition-colors duration-300">
+                                <i class="ri-tiktok-fill text-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-span-1 w-[50%] sm:w-auto text-text text-left flex justify-start lg:justify-center">
+                        <ul class="inline-block">
+                            <li>
+                                <p class="text-base inline-block border-b border-neutral-700 py-1 mb-2 text-neutral-300"> Main Menu </p>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> Home </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> Destinations </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> Blogs </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> Contact </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-span-1 w-[50%] lg:w-auto text-text text-left flex justify-start lg:justify-center">
+                        <ul class="inline-block">
+                            <li>
+                                <p class="text-base inline-block border-b border-neutral-700 py-1 mb-2 text-neutral-300"> Other Links </p>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> Best Places</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> Our Services</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> Help </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-sm text-neutral-300 hover:text-primary transition-colors duration-300"> License </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-span-2 lg:col-span-1 text-left flex justify-start lg:justify-end">
+                        <div class="text-text">
+                            <p class="text-base inline-block border-b border-neutral-700 py-1 mb-2 text-neutral-300"> Subscribe for Updates </p>
+                            <p class="text-sm mb-1">
+                                Get the latest deals, discounts, and travel tips straight to your inbox. subscribe now!
+                            </p>
+                            <div class="mb-4">
+                                <form action="" class="flex">
+                                    <input type="email" class="outline-none p-1 bg-neutral-900 text-neutral-400 placeholder-neutral-400 shadow focus:bg-neutral-900" placeholder="Email" name="email" id="">
+                                    <button type="button" class="px-2 py-1 bg-primary text-background hover:bg-glass-light border border-neutral-700 hover:text-primary transition-colors duration-300">
+                                        <i class="ri-send-plane-line font-bold"></i>
+                                    </button>
+                                </form>
+                            </div>
+                            <p class="text-neutral-500 text-xs font-ubuntu pt-3 border-t-[1px] border-neutral-700"> &copy; 2024 Hein Htet. All rights reserved. goTravel </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+</body>
+</html>
